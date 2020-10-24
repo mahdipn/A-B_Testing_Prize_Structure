@@ -38,5 +38,28 @@ To answer these questions, we need to bring up the concept of the 95% confidence
 
 Having these in mind, there are two methods we can use that both employ the abovementioned concepts. We will explore both methods in detail below.
 
-For the first methods, we need to bring the two graphs into one x-y coordinate, show their 95% Cis With these in mind, let’s polish the graphs a little bit and rearrange the figures. We now want to put the two figures on top of each other on the same coordinate and then show their 95% intervals. If their 955 CI overlap, then we know the result. Here is the first method shows geographically:
+For the first methods, we need to bring the two graphs into one x-y coordinate, show their 95% Cis With these in mind, let’s polish the graphs a little bit and rearrange the figures. We now want to put the two figures on top of each other on the same coordinate and then show their 95% intervals. If their 95% CI overlap, then we know the result. Here is the first method shows geographically:
+
+(PICTURE)
+
+OK, they overlap! So no statistically significant difference! 
+
+The next method is an alternate version of the first method. In this method, we will subtract the Before mean replicates from the After mean replicates, then we draw the histogram (normal distribution) and its 95% CI. If the CI includes zero (which means the difference between participation rates between Before and After scenarios is zero) then there is no statistically significant difference between the means. Let’s explore it:
+
+(PICTURE #2)
+
+The conclusion is the same as the 95% CI includes zero. We have also shown the mean difference, which is very close to zero!
+
+We can also prove our conclusions numerically using the p-value. We can calculate the p-value as the number of the data points in the mean difference array taking values at least as large as zero to the total number of observations. Let’s do so:
+
+(CALCULATED P)
+
+In hypothesis testing, is the p-values is greater than 0.90 (you might use a different number, like 0.95, or even 0.99 depending on the problem you want to solve) it means that we cannot reject the null hypothesis and, here, there is no difference in the participation rates between two scenarios. The calculated p-value is 0.59, and you know the conclusion! 
+
+## Conclusions
+In this study, we analyzed the effect of two different prize structures on the participation rate in an activity. The nature of the problem governs the use of hypothesis testing. Given the sample size limitation, we used the bootstrap method, a resampling technique, to increase the sample size. We employed two different visual methods as well as p-value calculation to determine the difference between the participation rates given the type of prize structure. All analyses identified no statistically significant difference between the participation rates, hence the change in prize structure does not affect the participation rate. 
+
+
+
+
 

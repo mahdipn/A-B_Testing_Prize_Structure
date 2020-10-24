@@ -1,4 +1,4 @@
-# Analyzing the Effect of Different Prize Structure on ohe Participation Rate: A Hypothesis Testing Approach
+# Analyzing the Effect of Different Prize Structure on the Participation Rate: A Hypothesis Testing Approach
 
 ## Introduction
 In a business setting, increasing the response rate of the target population is an essential task. Companies try various methods to encourage the participation of their employees in different fun activities to boost the sense of “unity.” In this study, I explored the effect of using two different prize structures on the response rate of the participants. The total amount of the prize for both scenarios was the same; however, they have different structure. In other words, for one scenario, called “Before”, the number of winners was two, while for the other one, called “After” the number of winners was six. The number of participants for both Before and After scenarios is comparable, 147 vs. 136, respectively. Throughout this analysis, I tried my best to keep the educational purpose of this Notebook, so there might be many concepts that you already know! With this background in mind, let’s start our analysis.
